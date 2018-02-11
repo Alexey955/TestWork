@@ -1,0 +1,45 @@
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+	position: absolute; bottom: 10%;
+	position: absolute; right: 20%;
+}
+ul.pagination li {display: inline;}
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ul.pagination li a.active {
+    background-color: #E9E9E9;
+    color: black;
+	border: 1px solid black;
+}
+table {
+border-collapse: collapse;/*убираем пустые промежутки между ячейками*/
+width: 60%;
+position: absolute; left: 20%;
+position: absolute;  top: 15%;
+}
+th, td {padding: 10px 15px;}
+tr:nth-child(even) { background-color: #F9F9F9; }/*закрашиваем чётные строки*/
+ul.pagination li a:hover:not(.active) {background-color: #F9F9F9; }
+input {
+  position: absolute; right: 20%;
+  position: absolute;  top: 10%;
+}
+#head {
+  border-bottom: 2px solid black;/*линия под заголовком*/
+}
+#bottom {
+  border-bottom: 2px solid black;
+}
+table tr td+td+td+td+td+td{/*выравнивание 6го столбца*/
+  text-align:right;
+}
+table tr td+td+td+td{
+  text-align:right;
+}
+

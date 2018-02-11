@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Table</title>
+	<script type="text/javascript" src="indexJsMain.js"></script>
+	<link rel="stylesheet" href="./indexCss.css">
+  </head>
+  <body>
+    <input type="text" value="" id="areaSearch">
+    <input type="button" value="Search" onclick="MODULE.createTableSearch()">
+	<table>
+	  <tr id="head">
+	    <td id="tdZeroOne" onclick="MODULE.sortName()">Name</td>
+		<td id="tdZeroTwo" onclick="MODULE.sortPosition()">Position</td>
+		<td id="tdZeroThree" onclick="MODULE.sortOffice()">Office</td>
+		<td id="tdZeroFour" onclick="MODULE.sortAge()">Age</td>
+		<td id="tdZeroFive" onclick="MODULE.sortStartDate()">Start date</td>
+		<td id="tdZeroSix" onclick="MODULE.sortSalary()">Salary</td>
+	  </tr>
+	  <tr>
+	    <td id="tdOneOne">Thor Walton</td>
+		<td id="tdOneTwo">Developer</td>
+		<td id="tdOneThree">New York</td>
+		<td id="tdOneFour">61</td>
+		<td id="tdOneFive">2013/08/11</td>
+		<td id="tdOneSix">$98540</td>
+	  </tr>
+	  <tr>
+	    <td id="tdTwoOne">Quinn Flynn</td>
+		<td id="tdTwoTwo">Support Lead</td>
+		<td id="tdTwoThree">Edinburgh</td>
+		<td id="tdTwoFour">22</td>
+		<td id="tdTwoFive">2013/03/03</td>
+		<td id="tdTwoSix">$342000</td>
+	  </tr>
+	  <tr>
+	    <td id="tdThreeOne">Jennifer Acosta</td>
+		<td id="tdThreeTwo">Junior Javascript Developer</td>
+		<td id="tdThreeThree">Edinburgh</td>
+		<td id="tdThreeFour">43</td>
+		<td id="tdThreeFive">2013/02/01</td>
+		<td id="tdThreeSix">$75650</td>
+	  </tr>
+	  <tr>
+	    <td id="tdFourOne">Haley Kennedy</td>
+		<td id="tdFourTwo">Senior Marketing Designer</td>
+		<td id="tdFourThree">London</td>
+		<td id="tdFourFour">43</td>
+		<td id="tdFourFive">2012/12/18</td>
+		<td id="tdFourSix">$313500</td>
+	  </tr>
+	  <tr>
+	    <td id="tdFiveOne">Brielle Williamson</td>
+		<td id="tdFiveTwo">Integration Specialist</td>
+		<td id="tdFiveThree">New York</td>
+		<td id="tdFiveFour">61</td>
+		<td id="tdFiveFive">2012/12/02</td>
+		<td id="tdFiveSix">$372000</td>
+	  </tr>
+	  <tr>
+	    <td id="tdSixOne">Michael Silva</td>
+		<td id="tdSixTwo">Marketing Designer</td>
+		<td id="tdSixThree">London</td>
+		<td id="tdSixFour">66</td>
+		<td id="tdSixFive">2012/11/27</td>
+		<td id="tdSixSix">$198500</td>
+	  </tr>
+	  <tr>
+	    <td id="tdSevenOne">Bradley Greer</td>
+		<td id="tdSevenTwo">Software Engineer</td>
+		<td id="tdSevenThree">London</td>
+		<td id="tdSevenFour">41</td>
+		<td id="tdSevenFive">2012/10/13</td>
+		<td id="tdSevenSix">$132000</td>
+	  </tr>
+	  <tr>
+	    <td id="tdEightOne">Dai Rios</td>
+		<td id="tdEightTwo">Personal Lead</td>
+		<td id="tdEightThree">Edinburgh</td>
+		<td id="tdEightFour">35</td>
+		<td id="tdEightFive">2012/09/26</td>
+		<td id="tdEightSix">$217500</td>
+	  </tr>
+	  <tr>
+	    <td id="tdNineOne">Herrod Chandler</td>
+		<td id="tdNineTwo">Sales Assistant</td>
+		<td id="tdNineThree">San Francisco</td>
+		<td id="tdNineFour">59</td>
+		<td id="tdNineFive">2012/08/06</td>
+		<td id="tdNineSix">$137500</td>
+	  </tr>
+	  <tr id="bottom">
+	    <td id="tdTenOne">Zorita Serrano</td>
+		<td id="tdTenTwo">Software Engineer</td>
+		<td id="tdTenThree">San Francisco</td>
+		<td id="tdTenFour">56</td>
+		<td id="tdTenFive">2012/06/01</td>
+		<td id="tdTenSix">$115000</td>
+	  </tr>	  
+	</table>
+	<script>MODULE.fillDate()</script>
+	<ul class="pagination">
+      <li><a href="#">Previous</a></li>
+      <li><a class="active" href="#">1</a></li>
+      <li><a href="indexHtmlTwo.html">2</a></li>
+      <li><a href="indexHtmlThree.html">3</a></li>
+      <li><a href="indexHtmlFour.html">4</a></li>
+      <li><a href="indexHtmlFive.html">5</a></li>
+      <li><a href="indexHtmlSix.html">6</a></li>
+      <li><a href="indexHtmlTwo.html">Next</a></li>
+    </ul
+  </body>
+</html>
